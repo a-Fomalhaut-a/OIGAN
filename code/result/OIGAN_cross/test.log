@@ -1,0 +1,54 @@
+2023-03-07 12:00:37,773 - E:/sr_code/OIGAN/code/test_model.py[line:63] - INFO:   name: OIGAN_cross
+  model: oigan
+  scale: 4
+  gpu_ids: []
+  pretrain: 1
+  datasets:[
+    test:[
+      name: dataset_B
+      mode: LRHR
+      dataroot_HR: data/HR/dataset_B/
+      dataroot_LR: data/LR/dataset_B/
+      subset_file: None
+      use_shuffle: True
+      n_workers: 1
+      batch_size: 1
+      HR_size: 512
+      use_flip: False
+      use_rot: False
+      phase: test
+      scale: 4
+      data_type: img
+    ]
+  ]
+  path:[
+    pretrain_dir: save_model/cross/
+    pretrain_model_G: save_model/cross/XXXX_G.pth
+    pretrain_now: XXXX_G.pth
+    results_save_root: result/
+    results_root: result/OIGAN_cross
+    log: result/OIGAN_cross
+  ]
+  network_G:[
+    norm_type: None
+    mode: CNA
+    nf: 64
+    nb: 23
+    in_nc: 3
+    out_nc: 3
+    gc: 32
+    group: 1
+    scale: 4
+  ]
+  is_train: False
+  save_pic: True
+  save_pic_excel: True
+  zb_order: ['name', 'ssim', 'psnr', 'lpips', 'focus_0', 'focus_1', 'focus_2']
+
+2023-03-07 12:00:37,775 - E:/sr_code/OIGAN/code/test_model.py[line:77] - INFO: -----------------------------
+2023-03-07 12:00:37,775 - E:/sr_code/OIGAN/code/test_model.py[line:78] - INFO: test in save_model/cross/
+2023-03-07 12:00:37,777 - E:/sr_code/OIGAN/code/test_model.py[line:88] - INFO: model now: save_model/cross/cross_model1_G.pth
+2023-03-07 12:00:40,771 - E:/sr_code/OIGAN/code/test_model.py[line:90] - INFO: need_HR: True
+2023-03-07 12:00:40,772 - E:/sr_code/OIGAN/code/test_model.py[line:92] - INFO: ----------------------------------------
+2023-03-07 12:01:29,652 - E:/sr_code/OIGAN/code/test_model.py[line:151] - INFO: ssim 0.5740460126609217 and lpips0.36795029044151306 with psnr 17.79684235455939
+2023-03-07 12:01:29,663 - E:/sr_code/OIGAN/code/test_model.py[line:158] - INFO: End of testing.

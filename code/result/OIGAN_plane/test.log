@@ -1,0 +1,203 @@
+2023-03-15 12:50:15,435 - E:/sr_code/OIGAN/code/test_model.py[line:63] - INFO:   name: OIGAN_plane
+  model: oigan
+  scale: 4
+  gpu_ids: []
+  pretrain: 1
+  datasets:[
+    test:[
+      name: dataset_Desk
+      mode: LR
+      dataroot_HR: data/Desktop/
+      dataroot_LR: data/LR/dataset_C/
+      subset_file: None
+      use_shuffle: True
+      n_workers: 1
+      batch_size: 1
+      HR_size: 512
+      use_flip: False
+      use_rot: False
+      phase: test
+      scale: 4
+      data_type: img
+    ]
+  ]
+  path:[
+    pretrain_dir: save_model/plane/
+    pretrain_model_G: save_model/plane/XXXX_G.pth
+    pretrain_now: XXXX_G.pth
+    results_save_root: result/
+    results_root: result/OIGAN_plane
+    log: result/OIGAN_plane
+  ]
+  network_G:[
+    norm_type: None
+    mode: CNA
+    nf: 64
+    nb: 23
+    in_nc: 3
+    out_nc: 3
+    gc: 32
+    group: 1
+    scale: 4
+  ]
+  is_train: False
+  save_pic: True
+  save_pic_excel: True
+  zb_order: ['name', 'lpips', 'psnr']
+
+2023-03-15 12:50:15,555 - E:/sr_code/OIGAN/code/test_model.py[line:77] - INFO: -----------------------------
+2023-03-15 12:50:15,555 - E:/sr_code/OIGAN/code/test_model.py[line:78] - INFO: test in save_model/plane/
+2023-03-15 12:50:15,558 - E:/sr_code/OIGAN/code/test_model.py[line:88] - INFO: model now: save_model/plane/plane_model1_G.pth
+2023-03-15 12:50:18,243 - E:/sr_code/OIGAN/code/test_model.py[line:90] - INFO: need_HR: True
+2023-03-15 12:50:18,244 - E:/sr_code/OIGAN/code/test_model.py[line:92] - INFO: ----------------------------------------
+2023-03-15 12:52:02,015 - E:/sr_code/OIGAN/code/test_model.py[line:63] - INFO:   name: OIGAN_plane
+  model: oigan
+  scale: 4
+  gpu_ids: []
+  pretrain: 1
+  datasets:[
+    test:[
+      name: dataset_Desk
+      mode: LR
+      dataroot_HR: data/Desktop/
+      dataroot_LR: data/Desktop/
+      subset_file: None
+      use_shuffle: True
+      n_workers: 1
+      batch_size: 1
+      HR_size: 512
+      use_flip: False
+      use_rot: False
+      phase: test
+      scale: 4
+      data_type: img
+    ]
+  ]
+  path:[
+    pretrain_dir: save_model/plane/
+    pretrain_model_G: save_model/plane/XXXX_G.pth
+    pretrain_now: XXXX_G.pth
+    results_save_root: result/
+    results_root: result/OIGAN_plane
+    log: result/OIGAN_plane
+  ]
+  network_G:[
+    norm_type: None
+    mode: CNA
+    nf: 64
+    nb: 23
+    in_nc: 3
+    out_nc: 3
+    gc: 32
+    group: 1
+    scale: 4
+  ]
+  is_train: False
+  save_pic: True
+  save_pic_excel: True
+  zb_order: ['name', 'lpips', 'psnr']
+
+2023-03-15 12:52:05,131 - E:/sr_code/OIGAN/code/test_model.py[line:77] - INFO: -----------------------------
+2023-03-15 12:52:05,131 - E:/sr_code/OIGAN/code/test_model.py[line:78] - INFO: test in save_model/plane/
+2023-03-15 12:52:05,135 - E:/sr_code/OIGAN/code/test_model.py[line:88] - INFO: model now: save_model/plane/plane_model1_G.pth
+2023-03-15 12:52:05,641 - E:/sr_code/OIGAN/code/test_model.py[line:90] - INFO: need_HR: True
+2023-03-15 12:52:05,641 - E:/sr_code/OIGAN/code/test_model.py[line:92] - INFO: ----------------------------------------
+2023-03-15 12:53:43,214 - E:/sr_code/OIGAN/code/test_model.py[line:63] - INFO:   name: OIGAN_plane
+  model: oigan
+  scale: 4
+  gpu_ids: []
+  pretrain: 1
+  datasets:[
+    test:[
+      name: dataset_Desk
+      mode: LR
+      dataroot_HR: data/Desktop/
+      dataroot_LR: data/Desktop/
+      subset_file: None
+      use_shuffle: True
+      n_workers: 1
+      batch_size: 1
+      HR_size: 512
+      use_flip: False
+      use_rot: False
+      phase: test
+      scale: 4
+      data_type: img
+    ]
+  ]
+  path:[
+    pretrain_dir: save_model/plane/
+    pretrain_model_G: save_model/plane/XXXX_G.pth
+    pretrain_now: XXXX_G.pth
+    results_save_root: result/
+    results_root: result/OIGAN_plane
+    log: result/OIGAN_plane
+  ]
+  network_G:[
+    norm_type: None
+    mode: CNA
+    nf: 64
+    nb: 23
+    in_nc: 3
+    out_nc: 3
+    gc: 32
+    group: 1
+    scale: 4
+  ]
+  is_train: False
+  save_pic: True
+  save_pic_excel: True
+  zb_order: ['name', 'lpips', 'psnr']
+
+2023-03-15 12:56:02,583 - E:/sr_code/OIGAN/code/test_model.py[line:63] - INFO:   name: OIGAN_plane
+  model: oigan
+  scale: 4
+  gpu_ids: []
+  pretrain: 1
+  datasets:[
+    test:[
+      name: dataset_Desk
+      mode: LR
+      dataroot_LR: data/Desktop/
+      subset_file: None
+      use_shuffle: True
+      n_workers: 1
+      batch_size: 1
+      HR_size: 512
+      use_flip: False
+      use_rot: False
+      phase: test
+      scale: 4
+      data_type: img
+    ]
+  ]
+  path:[
+    pretrain_dir: save_model/plane/
+    pretrain_model_G: save_model/plane/XXXX_G.pth
+    pretrain_now: XXXX_G.pth
+    results_save_root: result/
+    results_root: result/OIGAN_plane
+    log: result/OIGAN_plane
+  ]
+  network_G:[
+    norm_type: None
+    mode: CNA
+    nf: 64
+    nb: 23
+    in_nc: 3
+    out_nc: 3
+    gc: 32
+    group: 1
+    scale: 4
+  ]
+  is_train: False
+  save_pic: True
+  save_pic_excel: True
+  zb_order: ['name', 'lpips', 'psnr']
+
+2023-03-15 12:56:02,584 - E:/sr_code/OIGAN/code/test_model.py[line:77] - INFO: -----------------------------
+2023-03-15 12:56:02,585 - E:/sr_code/OIGAN/code/test_model.py[line:78] - INFO: test in save_model/plane/
+2023-03-15 12:56:02,586 - E:/sr_code/OIGAN/code/test_model.py[line:88] - INFO: model now: save_model/plane/plane_model1_G.pth
+2023-03-15 12:56:02,943 - E:/sr_code/OIGAN/code/test_model.py[line:90] - INFO: need_HR: False
+2023-03-15 12:56:02,944 - E:/sr_code/OIGAN/code/test_model.py[line:92] - INFO: ----------------------------------------
+2023-03-15 12:56:40,469 - E:/sr_code/OIGAN/code/test_model.py[line:158] - INFO: End of testing.
