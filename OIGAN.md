@@ -76,7 +76,7 @@ The test results of each model will be saved in path "`result_save_root`/`name`/
 ### Quantitative Results
 Deep-learning based methods were compared to demonstrate the power of the proposed model. 
 
-PSNR/LPIPS comparison with ESRGAN, USISGAN, DUSGAN and ECBSR.
+PSNR/LPIPS comparison with ESRGAN, USISGAN, DUSGAN and Beby-GAN.
 
 | Method | Dataset A | Dataset B | Dataset C | Dataset D | 
 | --------------------------------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------------- |  
