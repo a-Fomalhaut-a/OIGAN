@@ -1,14 +1,13 @@
 # OIGAN
 
-PyTorch implementation of **"Neutralizing the impact of mineral inhomogeneous surface
-in microscopy imaging via deep learning super-resolution"**
+PyTorch implementation of **"Extended depth-of-field resolution enhancement microscopy imaging for neutralizing the impact of mineral inhomogeneous surface"**
 
 ## Dependencies
 - Python 3.7 (Recommend to use [Anaconda](https://www.anaconda.com/download/#linux))
 - [PyTorch = 1.10.0](https://pytorch.org/)
 
 ## Preparation
-The **pretrained models** can be find in path **"/save_model"**. Two models based on plane polarized light mode and cross polarized light mode respectively are available.
+The **pretrained models** can be find in Google Drive **"[/save_model](https://drive.google.com/drive/folders/11kofSwlP8lfJP2aZAXmZoDPVe5qsJAtW?usp=sharing)"**. Two models based on plane polarized light mode and cross polarized light mode respectively are available.
 
 ## Parameters
 The configurations in `option/test/`can be modified. We provide the test parameters of models suitable for plane polarized light and cross polarized light images. Here are the details:
@@ -80,12 +79,12 @@ Deep-learning based methods were compared to demonstrate the power of the propos
 PSNR/LPIPS comparison with ESRGAN, USISGAN, DUSGAN and ECBSR.
 
 | Method | Dataset A | Dataset B | Dataset C | Dataset D | 
-| --------------------------------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------------- | 
-| ECBSR | 17\.21/0\.716 | 16\.48/0\.735 | 18\.93/0\.713 | 17\.16/0\.745 | 
+| --------------------------------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------------- |  
 | USISGAN | 18\.93/0\.663 | 18\.65/0\.653 | 18\.75/0\.759 | 17\.41/0\.702 | 
 | ESRGAN | 18\.28/0\.444 | 18\.30/0\.441 | 17\.74/0\.474 | 17\.98/0\.464 |
 | DUGAN | 18\.85/0\.604 | 18\.60/0\.606 | 18\.72/0\.672 | 17\.38/0\.670 | 
-| OURS | **19\.06**/**0\.419** | **19\.19**/**0\.378** | **19\.46**/**0\.403** | **22\.07**/**0\.434** | 
+| Beby-GAN | 19\.10/0\.416 | 19\.15/0\.416 | 19\.44/0\.498 | 20\.53/0\.508 |
+| OURS | **19\.25**/**0\.413** | **19\.19**/**0\.378** | **19\.46**/**0\.403** | **22\.07**/**0\.434** | 
 
 
 ## Acknowledgement
